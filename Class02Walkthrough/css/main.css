@@ -1,0 +1,19 @@
+body {
+	background:goldenrod;
+	color:white;
+	font-size:0.9em;
+}
+
+p {
+	width:750px;
+}
+
+h1 {
+	font-size:3em;
+}
+
+.fp {
+	font-size:1.2em;
+	text-transform:uppercase;
+	letter-spacing:0.05em;
+}
