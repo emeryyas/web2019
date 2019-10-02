@@ -1,0 +1,523 @@
+.letter {
+	width:200px; /*resize as you see fit */
+	height:300px; /*resize as you see fit */
+	display:inline-block; /* this makes block level elements act like letters (so they sit next to eachother) */
+	border:1px solid #000; /*feel free to remove or hide this rule */
+	position:relative; /* IMPORTANT: any element with position:absolute inside this container will now be relative to bounds of this element; */
+}
+
+/*.line1 {
+	/*Slanted blue line
+	position:absolute;
+	background-color: blue;
+	width:5%;
+	height:60%;
+	top:20%;
+	left:30%;
+	transform:skew(340deg);
+}
+
+.line4{
+	/*Left side of the A
+	position:absolute;
+	background-color: black;
+	width:5%;
+	height:60%;
+	top:20%;
+	left:37%;
+	transform:skew(340deg);
+}
+
+
+.line2 {
+	/*Right side of the A
+	position:absolute;
+	background-color: black;
+	width:4%;
+	height:60%;
+	top:20%;
+	left:60%;
+	transform:skew(20deg);
+}
+
+
+.line3 {
+	/*Blue square (mid)
+	position:absolute;
+	background-color:blue;
+	width:22%;
+	height:15%;
+	top:50%;
+	left:50%;
+}
+
+.line5 {
+	/*Blue square (top)
+	position:absolute;
+	background-color:blue;
+	width:22%;
+	height:15%;
+	top:30%;
+	left:50%;
+}
+
+.line6 {
+	/*Blue square (low)
+	position:absolute;
+	background-color:blue;
+	width:22%;
+	height:15%;
+	top:60%;
+	left:50%;
+}
+
+.line8{
+	/*Straight blue line
+	position:absolute;
+	background-color: blue;
+	width:5%;
+	height:60%;
+	top:20%;
+	left:30%;
+}
+
+.line7{
+	Line of the ) of the B
+	position:absolute;
+	background-color: black;
+	transform:skew(40deg);
+	width:5%;
+	height:30%;
+	top:20%;
+	left:55%;
+}
+
+.line9{
+	/*Line of the ) of the B
+	position:absolute;
+	background-color: black;
+	transform:skew(40deg);
+	width:5%;
+	height:30%;
+	top:50%;
+	left:55%;
+}*/
+
+.line9{
+	/*Straight line vertical right*/
+	position:absolute;
+	background-color: black;
+	width:5%;
+	height:40%;
+	top:30%;
+	left:75%;
+}
+
+
+.line10{
+	/*Straight line vertical left*/
+	position:absolute;
+	background-color: black;
+	width:5%;
+	height:40%;
+	top:30%;
+	left:30%;
+}
+
+.line8{
+	/*Straight line horizontal mid*/
+	position:absolute;
+	background-color: black;
+	width:40%;
+	height:3%;
+	top:50%;
+	left:35%;
+}
+
+.line11{
+	/*Straight line horizontal top*/
+	position:absolute;
+	background-color: black;
+	width:40%;
+	height:3%;
+	top:26.5%;
+	left:35%;
+}
+
+
+/*.line12{
+	position:absolute;
+	background-color: black;
+	width:70%;
+	height:3%;
+	top:80%;
+	left:15%;
+}*/
+
+.line13 {
+	/*Circle for C*/
+	position:absolute;
+	background-color:blue;
+	width:52%;
+	height:34%;
+	top:45%;
+	left:20%;
+	border-radius:50%;
+}
+
+.line12{
+	/*Circle for A*/
+	position:absolute;
+	background-color:blue;
+	width:52%;
+	height:34%;
+	top:22%;
+	left:17%;
+	border-radius:50%;
+}
+
+.line7{
+	/*A circle for B*/
+	position:absolute;
+	background-color:blue;
+	width:52%;
+	height:34%;
+	top:42%;
+	left:28%;
+	border-radius:50%;
+}
+
+.line6{
+	/*A circle for B*/
+	position:absolute;
+	background-color:blue;
+	width:52%;
+	height:34%;
+	top:12%;
+	left:28%;
+	border-radius:50%;
+}
+
+.line5{
+	/*Straight line short horizontal mid*/
+	position:absolute;
+	background-color: black;
+	width:20%;
+	height:3%;
+	top:50%;
+	left:45%;
+}
+
+.line4{
+	/*Circle for D*/
+	position:absolute;
+	background-color:blue;
+	width:52%;
+	height:34%;
+	top:35%;
+	left:23%;
+	border-radius:50%;
+}
+
+.line3{
+	/*Straight line short horizontal bottom*/
+	position:absolute;
+	background-color: black;
+	width:20%;
+	height:3%;
+	top:70%;
+	left:45%;
+}
+
+.line2{
+	/*Circle for E*/
+	position:absolute;
+	background-color:blue;
+	width:52%;
+	height:34%;
+	top:32%;
+	left:17%;
+	border-radius:50%;
+}
+
+.line1{
+	/*Straight line short horizontal top right*/
+	position:absolute;
+	background-color: black;
+	width:20%;
+	height:3%;
+	top:30%;
+	left:45%;
+}
+
+.line14{
+	/*Straight line short horizontal top left*/
+	position:absolute;
+	background-color: black;
+	width:20%;
+	height:3%;
+	top:30%;
+	left:35%;
+}
+
+.line16{
+	/*Straight line short horizontal mid - G*/
+	position:absolute;
+	background-color: black;
+	width:20%;
+	height:3%;
+	top:50%;
+	left:60%;
+}
+
+.line17{
+	/*Circle for H*/
+	position:absolute;
+	background-color:blue;
+	width:52%;
+	height:34%;
+	top:35%;
+	left:20%;
+	border-radius:50%;
+}
+
+.line18{
+	/*Circle middle*/
+	position:absolute;
+	background-color:blue;
+	width:52%;
+	height:34%;
+	margin-left:24%;
+	margin-top:45%;
+	border-radius:50%;
+}
+
+.line19{
+	/*Middle vertical line for I*/
+	position:absolute;
+	background-color: black;
+	width:5%;
+	height:40%;
+	top:30%;
+	left:48%;
+}
+
+.line15{
+	/*Vertical line short bottom left - J*/
+	position:absolute;
+	background-color: black;
+	width:5%;
+	height:15%;
+	top:50%;
+	left:30%;
+}
+
+.line20{
+	/*Vertical line for J*/
+	position:absolute;
+	background-color: black;
+	width:5%;
+	height:40%;
+	top:30%;
+	left:60%;
+}
+
+.line21{
+	/*Vertical line short bottom right*/
+	position:absolute;
+	background-color: black;
+	width:5%;
+	height:15%;
+	top:55%;
+	left:70%;
+}
+
+.line22{
+	/*Vertical line short top right*/
+	position:absolute;
+	background-color: black;
+	width:5%;
+	height:15%;
+	top:30%;
+	left:70%;
+}
+
+.line23{
+	/*Bottom horizontal long line*/
+	position:absolute;
+	background-color: black;
+	width:40%;
+	height:3%;
+	top:70%;
+	left:35%;
+}
+
+.line24{
+	/*A circle for N*/
+	position:absolute;
+	background-color:blue;
+	width:52%;
+	height:34%;
+	top:42%;
+	left:35%;
+	border-radius:50%;
+}
+
+.line25{
+	/*A circle for M*/
+	position:absolute;
+	background-color:blue;
+	width:52%;
+	height:34%;
+	top:25%;
+	left:28%;
+	border-radius:50%;
+}
+
+.line26{
+	/*Vertical line short top middle*/
+	position:absolute;
+	background-color: black;
+	width:5%;
+	height:15%;
+	top:30%;
+	left:53%;
+}
+
+.line27{
+	/*Circle for O*/
+	position:absolute;
+	background-color:blue;
+	width:52%;
+	height:34%;
+	top:34.5%;
+	left:28%;
+	border-radius:50%;
+}
+
+.line28{
+	/*Circle for P*/
+	position:absolute;
+	background-color:blue;
+	width:52%;
+	height:34%;
+	top:22%;
+	left:23%;
+	border-radius:50%;
+}
+
+.line29{
+	/*Vertical line short bottom right - Q*/
+	position:absolute;
+	background-color: black;
+	width:5%;
+	height:15%;
+	top:63%;
+	left:67.5%;
+}
+
+.line30{
+	/*Straight line short horizontal bottom - Q*/
+	position:absolute;
+	background-color: black;
+	width:20%;
+	height:3%;
+	top:70%;
+	left:60%;
+}
+
+.line31{
+	/*A circle for T*/
+	position:absolute;
+	background-color:blue;
+	width:52%;
+	height:34%;
+	top:12%;
+	left:24.5%;
+	border-radius:50%;
+}
+
+.line32{
+	/*Vertical line short top left*/
+	position:absolute;
+	background-color: black;
+	width:5%;
+	height:15%;
+	top:30%;
+	left:30%;
+}
+
+
+.line33{
+	/*Straight line short horizontal top left - repositioned for T*/
+	position:absolute;
+	background-color: black;
+	width:20%;
+	height:3%;
+	top:30%;
+	left:33%;
+}
+
+.line34{
+	/*Circle for V*/
+	position:absolute;
+	background-color:blue;
+	width:52%;
+	height:34%;
+	top:38%;
+	left:26.5%;
+	border-radius:50%;
+}
+
+.line35{
+	/*Vertical line short bottom middle*/
+	position:absolute;
+	background-color: black;
+	width:5%;
+	height:15%;
+	top:60%;
+	left:50%;
+}
+
+
+.line36{
+	/*Vertical line short bottom left*/
+	position:absolute;
+	background-color: black;
+	width:5%;
+	height:15%;
+	top:55%;
+	left:30%;
+}
+
+.line37{
+	/*Vertical line short bottom middle - W*/
+	position:absolute;
+	background-color: black;
+	width:5%;
+	height:15%;
+	top:55%;
+	left:53%;
+}
+
+.line38 {
+	/*A circle for Z*/
+	position:absolute;
+	background-color:blue;
+	width:52%;
+	height:34%;
+	top:42%;
+	left:20%;
+	border-radius:50%;
+}
+
+.line39{
+	/*Circle for Z*/
+	position:absolute;
+	background-color:blue;
+	width:52%;
+	height:34%;
+	top:22%;
+	left:37%;
+	border-radius:50%;
+}

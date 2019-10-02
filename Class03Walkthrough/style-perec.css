@@ -1,0 +1,44 @@
+body {
+	font-family: 'Lora', serif;
+	width:33em;
+	margin:auto;
+	font-size:90%;
+}
+
+.eq {
+	font-family: 'Work Sans', sans-serif;
+	text-align: center;
+	font-style:normal;
+	letter-spacing:150%;
+	color:blue;
+	text-decoration:none;
+}
+
+h1,h2,h3 {
+	text-align:center;
+}
+
+h1,h2,h3,h4 {
+	font-family: 'Work Sans', sans-serif;
+}
+
+h1 {
+	font-style:italic;
+	font-weight:bold;
+	text-decoration:underline wavy blue;
+}
+
+h4 {
+	font-variant:small-caps;
+	text-decoration:overline wavy blue;
+	text-transform:capitalize;
+}
+
+ul {
+	line-height:180%;
+}
+
+p {
+	text-align: justify;
+  	text-justify: inter-word;
+}
